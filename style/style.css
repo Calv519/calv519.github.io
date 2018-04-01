@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Shadows Into Light', cursive;
+	background: url(../images/blackbackground.jpg);
+	background-position: fixed;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+}
+
+ul li{
+	margin: 25px;
+	display: inline-block;
+}
+
+.wrapper {
+	width: 1425px;
+	margin: 0 auto;
+}
+
+
+#hello {
+	height: 30px;
+	background-color: darkred;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h1 {
+	padding-top: 40px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+header {
+	height: 80px;
+}
+
+.clearfix:after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.container {
+	margin-top: 100px;
+	width: 700px;
+	height: 500px;
+	float: left;
+}
+
+.title p {
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+}
+
+.title h1 {
+	color: darkred;
+}
+
+
+button {
+	width: 400px;
+	height: 100px;
+	float: left;
+	font-size: 22px;
+	border-radius: 5%;
+	border: 2px solid black;
+	margin: 5px 0px;
+	outline: none;	
+	font-family: 'Shadows Into Light', cursive;
+	opacity: .9;
+	cursor: pointer;
+	font-weight: bolder;
+	background: none;
+}
+
+button:hover {
+	background-color: white;
+	opacity: .2;
+}
+
+#btn1 {
+ 	color: darkgray;
+}
+#btn2 {
+	color: darkgreen;
+}
+#btn3 {
+	color: darkblue;
+}
+#btn4 {
+	color: darkorange;
+}
+.bwrapper {
+	padding: 35px 0px 35px 140px;
+}
+
+.display {
+	width: 560px;
+	height: 315px;
+	border: 5px double darkred;
+	position: relative;
+	left: 10%;
+	top: 15%;
+	background-color: black;
+	opacity: 1;
+}
+
+.display h2 {
+	text-align: center;
+	line-height: 300px;
+}
+
+.center {
+	text-align: center;
+	position: relative;
+	top: 20%;
+	left: 26%;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.abouttitle {
+	font-size: 32px;
+}
+
+.me {
+	width: 250px;
+	height: 190px;
+	border-radius: 10%;
+	padding: 10px 0px;
+}
+
+.white {
+	color: white;
+}
