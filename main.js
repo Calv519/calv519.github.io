@@ -33,6 +33,7 @@ var $myForm = $('#my-form')
 $myForm.submit(function(event){
 event.preventDefault()
 event.target.reset()
+alert("Your Message Has been sent!")
 })
 
 
