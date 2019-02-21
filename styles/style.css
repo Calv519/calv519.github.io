@@ -1,0 +1,245 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+
+.clearfix:after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+header.home {
+  height: 700px;
+  background-image: url(../images/bg.jpeg);
+  background-position: top center;
+  background-size:cover;
+  padding-top: 32px;
+}
+
+header .logo {
+  color: #fff;
+}
+header h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #033048;
+  margin: 240px 90px 0px 90px;
+  font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+}
+
+header h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #033048;
+  font-weight: 600;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 8px 0px;
+  width: 180px;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+#benefits {
+  padding: 100px 0 80px;
+}
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#benefits p, #benefits ul {
+  width: 600px;
+}
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+#projects {
+  background: no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+  background-size: cover;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+
+
+/*SKILLS*/
+
+.skill {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill p {
+font-size: 14px;
+
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 250px;/*
+  border: black solid 2px;*/
+}
+
+
+
+
+.img {
+  width: 300px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 25px 25px 0px 25px;
+}
+
+ 
+/*PROJECTS*/
+
+.projects p {
+  text-align: center;
+}
+
+.stackleft {
+  float: left;
+}
+
+
+.icon {
+margin-left: 25%;
+}
+
+
+/*NAVIGATION*/
+#downloaded {
+  height: 30px;
+  text-align: center;
+  background-color: lightgreen;
+  padding-top: 15px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgba(109, 106, 105, .25);
+    position: fixed; 
+    top: 0;
+    right: 0%; 
+    width: 100%;/*
+    height: 10%;*/
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+nav h1{
+  position: absolute;
+  font-size: 24px;
+  margin: 5px 0px 0px 25px;
+  padding: 5px 15px 5px 15px;
+/*  border-bottom: 5px double white;
+  border-right: 5px double white;
+  border-top: 5px double black;
+  border-left: 5px double black;*/
+  font-family: 'Kaushan Script', cursive;
+}
+
+
+
+
+
+/*CONTACT*/
+
+.contact h2 {
+  padding-top: 60px;
+}
+
+form {
+  float: right;
+  margin-top: 32px;
+}
+
+form p {
+  left: -2%;
+  padding: 8px;
+}
+
+
+textarea {
+  height: 200px;
+  width: 500px;
+}
+
+.coffee {
+  height: 325px;
+  float: right;
+  margin: 25px 15px;  
+}
