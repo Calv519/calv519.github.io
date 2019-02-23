@@ -33,7 +33,7 @@ var $myForm = $('#my-form')
 $myForm.submit(function(event){
 event.preventDefault()
 event.target.reset()
-alert("Your Message Has been sent!")
+alert("Doesn't Actually Work, Please Click Link Below to Email")
 })
 
 
