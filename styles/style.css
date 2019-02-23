@@ -106,12 +106,6 @@ h3 {
   font-weight: 600;
 }
 
-#projects {
-  background: no-repeat top center rgba(109, 106, 105, .25) ;
-  padding: 70px 0 70px;
-  color: #fff;
-  background-size: cover;
-}
 
 footer {
   background: white;
@@ -153,6 +147,13 @@ font-size: 14px;
 
  
 /*PROJECTS*/
+
+#projects {
+  background: no-repeat top center rgba(109, 106, 105, .05) ;
+  padding: 70px 0 70px;
+  color: #fff;
+  background-size: cover;
+}
 
 .projects p {
   text-align: center;
@@ -202,10 +203,6 @@ nav h1{
   font-size: 24px;
   margin: 5px 0px 0px 25px;
   padding: 5px 15px 5px 15px;
-/*  border-bottom: 5px double white;
-  border-right: 5px double white;
-  border-top: 5px double black;
-  border-left: 5px double black;*/
   font-family: 'Kaushan Script', cursive;
 }
 
