@@ -60,9 +60,9 @@ header h2 {
   font-weight: 600;
 }
 
-/*h3 {
-    text-align: center;
-}*/
+.black {
+  color: black;
+}
 
 header h3 {
   font-size: 24px;
