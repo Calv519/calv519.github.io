@@ -123,13 +123,15 @@ footer {
 
 .skill p {
 font-size: 14px;
+padding: 0px 10px;
 
 }
 
 .box {
   float: left;
   width: 200px;
-  height: 250px;/*
+  height: 250px;
+  /*
   border: black solid 2px;*/
 }
 
