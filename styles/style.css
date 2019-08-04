@@ -235,3 +235,7 @@ textarea {
   height: 325px;
   padding-right: 55px;
 }
+
+address {
+  font-size: 12px;
+}
